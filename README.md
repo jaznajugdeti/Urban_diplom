@@ -55,6 +55,11 @@ plt.grid(axis='y', linestyle='--', alpha=0.7)
 plt.tight_layout()
 plt.show()
 
+пример использования наглядно:
+![Снимок экрана 2024-12-24 162540](https://github.com/user-attachments/assets/246939d6-0693-4a62-a80f-b1455404046d)
+
+
+
 #_**Пример использования кода в библиотеке Plotly:**_
 Шаг 1: Скачиваем данные из дата сета Wine:
 wine = load_wine()
@@ -73,6 +78,10 @@ fig1 = px.scatter_3d(data,
                      symbol='target_name')
 fig1.show()
 
+пример использования наглядно:
+![Скриншот 2024-12-24 16 27 49](https://github.com/user-attachments/assets/76e88e22-490f-4817-86cf-d90fd46dd5aa)
+
+ 
 #_**Пример использования кода в библиотеке Seaborn:**_
 Шаг 1: Загрузка данных
 iris = load_iris()
@@ -84,6 +93,10 @@ data['species_name'] = data['species'].apply(lambda x: iris.target_names[x])
 sns.pairplot(data, hue='species_name', palette='Set2', diag_kind='kde', height=2)
 plt.suptitle("Pairplot of Iris Dataset", y=1.02, fontsize=16)
 plt.show()
+
+пример использования наглядно:
+![Uploading 2024-12-24_16-29-35.png…]()
+
 
 #_**Использованные источники:**_
 Библиотека Matplotlib в Python: что это такое, примеры построения графиков функций и диаграмм / Skillbox Media
